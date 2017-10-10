@@ -35,8 +35,8 @@ Android版核心库，共用代码，供Xamarin Android开发使用
 ### iOS库 NewLife.iOS
 iOS版核心库，共用代码，供Xamarin iOS开发使用
 
-### [数据中间件 NewLife.XCode]http://git.newlifex.com/NewLife/XDoc/Blob/master/XCode/Readme.MD
-主要特点：  
+### 数据中间件 NewLife.XCode
+主要特点：[更多]http://git.newlifex.com/NewLife/XDoc/Blob/master/XCode/Readme.MD  
 1，设计极致的缓存，超高性能  
 2，反向工程，根据实体类主动建立数据库表结构并初始化数据，支持8种数据库  
 3，无限分表分库，支持任意数据库，无需修改业务代码  
