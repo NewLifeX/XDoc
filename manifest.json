@@ -1,0 +1,471 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/projects/xdoc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "Readme.html",
+          "hash": "tsxmd1T3Bd1rlMRHY+kzqw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "4d/VnUA4vhJyv1+6Tp+ncg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Agent/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Agent/Readme.html",
+          "hash": "X6Hz8lzhyNa5q0vC+fOWXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Api/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Api/Readme.html",
+          "hash": "XBpkvzkhoEhRUu/n8Wo2ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Cube/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Cube/Readme.html",
+          "hash": "KkkLVBRnW3svnzGp+zx6dQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/DotNetCore/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DotNetCore/index.html",
+          "hash": "h24dG4ZQtukqTunx0ZYHkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/DotNetCore/netcore_centos.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/DotNetCore/netcore_centos.html",
+          "hash": "mfiysb742CHNk1pgQR1zFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Mobile/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Mobile/Readme.html",
+          "hash": "QFAe8tofVzgizA5TxGfCLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Net/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Net/Readme.html",
+          "hash": "onjFV5pAD1PE4EldqO/rJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Net/新生命网络库客户端用法.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Net/新生命网络库客户端用法.html",
+          "hash": "ya8NAY4T1DmO47+SgtBeJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Net/新生命网络库比较典型的简单用法.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Net/新生命网络库比较典型的简单用法.html",
+          "hash": "g8+xUT5y7rG9ukZ1wZxX2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Reflect/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Reflect/Readme.html",
+          "hash": "05X6hPO4gPEIaXWbAZznhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Security/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Security/Readme.html",
+          "hash": "td0tqYU6K0p+yhB18YarCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Serialization/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Serialization/Readme.html",
+          "hash": "E6ZF8PDFKE++QHH1OOhxYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/Thread/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Thread/Readme.html",
+          "hash": "ydwh7ZOyAUQgY/4On6qqeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/EntityCache.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/EntityCache.html",
+          "hash": "BDUdQxrscfjUCapMIy87Qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/ExtendProperty.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/ExtendProperty.html",
+          "hash": "nGsAPeat2f9qDVd00TZQjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/Get-Start.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/Get-Start.html",
+          "hash": "6SYRc30CNxveOMVXfOfGZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/Migration.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/Migration.html",
+          "hash": "aeKqhiZ37TTY7fKeTPUwag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/Model.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/Model.html",
+          "hash": "LOWN61hwzIeUkVa8Zng7MQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/Normal.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/Normal.html",
+          "hash": "/1G0NgsqRoz+9qpEwvz62A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/Readme.html",
+          "hash": "9njbdGHWUqsUdjLf/8RbaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/Search.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/Search.html",
+          "hash": "9hLqaUu88BAsWHyIdLmQVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCode/SingleCache.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCode/SingleCache.html",
+          "hash": "4YE/yToy52iM3IoPP36Bdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/XCoder/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XCoder/Readme.html",
+          "hash": "bBo+4RYSSRQ6nHzb8XcNJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/XScript/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XScript/Readme.html",
+          "hash": "QKLgOYcSa6y+l4qb5YHBLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/XTemplate/Readme.MD",
+      "output": {
+        ".html": {
+          "relative_path": "articles/XTemplate/Readme.html",
+          "hash": "utg6YmZPa5mFlD1/N481Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html",
+          "hash": "iexXblkHjjf9evXeWChSZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "3zju/MyB0T6UESKLbnnrnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "BZqmJYal9NC5N8qgXWDfSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "wMovbNUl4UWIvcuSLTAgwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
