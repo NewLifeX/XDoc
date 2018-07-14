@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/projects/xdoc",
+  "source_base_path": "C:/Users/12504/Desktop/新建文件夹/xdoc",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -12,10 +12,10 @@
       "output": {
         ".html": {
           "relative_path": "Readme.html",
-          "hash": "tsxmd1T3Bd1rlMRHY+kzqw=="
+          "hash": "J3zbPS2oBPjn48wfXDGkTQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,10 +24,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "4d/VnUA4vhJyv1+6Tp+ncg=="
+          "hash": "R6rTIBE8gbJhkb6QxoSyRA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -39,10 +39,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Agent/Readme.html",
-          "hash": "X6Hz8lzhyNa5q0vC+fOWXQ=="
+          "hash": "4Rrz5s0KbDO8UHz1lD074g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -54,10 +54,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Api/Readme.html",
-          "hash": "XBpkvzkhoEhRUu/n8Wo2ww=="
+          "hash": "gwzOgU+MzI54/ZUbGC019Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Cube/Readme.html",
-          "hash": "KkkLVBRnW3svnzGp+zx6dQ=="
+          "hash": "Fio6hesj0ce4zeWWOq83mw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/DotNetCore/index.html",
-          "hash": "h24dG4ZQtukqTunx0ZYHkw=="
+          "hash": "5CDYCm0BPnau8rtnNDu73Q=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,10 +96,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/DotNetCore/netcore_centos.html",
-          "hash": "mfiysb742CHNk1pgQR1zFQ=="
+          "hash": "VDF0qOuzdz3snqBc9ZLPuw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -111,10 +111,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Mobile/Readme.html",
-          "hash": "QFAe8tofVzgizA5TxGfCLA=="
+          "hash": "dcnkWuLEXojoZmJXhn6FDA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -126,10 +126,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Net/Readme.html",
-          "hash": "onjFV5pAD1PE4EldqO/rJA=="
+          "hash": "989xw7AJMRcWMwvUEsNcfA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -138,10 +138,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Net/新生命网络库客户端用法.html",
-          "hash": "ya8NAY4T1DmO47+SgtBeJg=="
+          "hash": "Mcqt+krPaycoMwGF+OMu9g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -150,10 +150,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Net/新生命网络库比较典型的简单用法.html",
-          "hash": "g8+xUT5y7rG9ukZ1wZxX2A=="
+          "hash": "w9dCEM0fnr0QHSS3iILqJQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Reflect/Readme.html",
-          "hash": "05X6hPO4gPEIaXWbAZznhA=="
+          "hash": "tjYb0srUShbldzxweW6CpQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -180,10 +180,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Security/Readme.html",
-          "hash": "td0tqYU6K0p+yhB18YarCA=="
+          "hash": "mz9RvuyKh54ng+KNkUP8JQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -195,10 +195,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Serialization/Readme.html",
-          "hash": "E6ZF8PDFKE++QHH1OOhxYA=="
+          "hash": "PGBti2PYSnR0MbfvfD54Yw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -210,10 +210,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/Thread/Readme.html",
-          "hash": "ydwh7ZOyAUQgY/4On6qqeQ=="
+          "hash": "fXQE+z8MSPC/1+bL2Ag0yQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -222,10 +222,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/EntityCache.html",
-          "hash": "BDUdQxrscfjUCapMIy87Qw=="
+          "hash": "Hl7yKxpWBc/ez6cy+WhHzw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -234,10 +234,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/ExtendProperty.html",
-          "hash": "nGsAPeat2f9qDVd00TZQjQ=="
+          "hash": "HAwB9YphVbgYNsEiAFuTcQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -246,10 +246,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/Get-Start.html",
-          "hash": "6SYRc30CNxveOMVXfOfGZw=="
+          "hash": "WZjJNNM309VmiINb/hI97g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -258,10 +258,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/Migration.html",
-          "hash": "aeKqhiZ37TTY7fKeTPUwag=="
+          "hash": "6/GMoX/8ja7GAM3KlycWUA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -270,10 +270,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/Model.html",
-          "hash": "LOWN61hwzIeUkVa8Zng7MQ=="
+          "hash": "tzufO4yKBTUaApKFDPKyFg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -282,10 +282,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/Normal.html",
-          "hash": "/1G0NgsqRoz+9qpEwvz62A=="
+          "hash": "a4GBSRUhZuYBYpRYBi82rw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -294,10 +294,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/Readme.html",
-          "hash": "9njbdGHWUqsUdjLf/8RbaA=="
+          "hash": "xIM5Z/Qy6WtFERvmnHiUYA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -306,10 +306,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/Search.html",
-          "hash": "9hLqaUu88BAsWHyIdLmQVg=="
+          "hash": "c7Iq1DCtISlI1OsE9ihbtw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -318,10 +318,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCode/SingleCache.html",
-          "hash": "4YE/yToy52iM3IoPP36Bdg=="
+          "hash": "xEsaARiLpkIDRBVEvvQEwQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XCoder/Readme.html",
-          "hash": "bBo+4RYSSRQ6nHzb8XcNJA=="
+          "hash": "WiF6aT27828++gP93vcHPw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XScript/Readme.html",
-          "hash": "QKLgOYcSa6y+l4qb5YHBLA=="
+          "hash": "BgyFROEju/1AjPqeq9NO1A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -360,10 +360,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/XTemplate/Readme.html",
-          "hash": "utg6YmZPa5mFlD1/N481Yg=="
+          "hash": "YJo9D+6mlRD9Dvwh1hSGgQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -372,10 +372,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "iexXblkHjjf9evXeWChSZg=="
+          "hash": "pFT1QPMTNFXujxODYUN72w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -384,7 +384,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "3zju/MyB0T6UESKLbnnrnw=="
+          "hash": "oeoyKZozsW2qRXGKDzwz8A=="
         }
       },
       "is_incremental": false,
@@ -410,10 +410,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "BZqmJYal9NC5N8qgXWDfSA=="
+          "hash": "t2d4MmiWb4EoQuwKa9ii/w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -432,31 +432,30 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build"
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing"
       },
       "processors": {}
