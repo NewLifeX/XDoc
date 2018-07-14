@@ -10,7 +10,7 @@ init: # 初始化
   - ps: |
         write-host $env:APPVEYOR_ACCOUNT_NAME
         write-host $env:APPVEYOR_PROJECT_NAME
-        write-host $env:APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME
+        write-host "https://$env:APPVEYOR_ACCOUNT_NAME.github.io/$env:APPVEYOR_PROJECT_NAME/"
 install: #
     # 以下通过choco安装docfx
   - ps: |
