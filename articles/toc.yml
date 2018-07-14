@@ -1,5 +1,10 @@
 - name: 介绍
   href: index.md
+- name: DotNetCore相关教程
+  href: DotNetCore/index.md
+  items: 
+  - name: CentOS安装使用.netcore极简教程
+    href: DotNetCore/netcore_centos.md
 - name: Agent
   href: Agent/Readme.MD
 - name: Api
