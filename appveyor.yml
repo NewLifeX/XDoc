@@ -43,7 +43,7 @@ on_success: # 成功构建之后部署
         {
             #-----------配置git账号信息，使用到的就是上面的环境变量----------------------------------start
             git config --global credential.helper store
-            # Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+            Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
             git config --global user.email $env:op_build_user_email
             git config --global user.name $env:op_build_user
             #-----------配置git账号信息，使用到的就是上面的环境变量------------------------------------end
