@@ -55,6 +55,6 @@ on_success: # 成功构建之后部署
             git add -A 2>&1
             git commit -m "CI Updates" -q
             git push origin gh-pages -q
-            exit 1
+            exit $LASTEXITCODE
             #-----------这里就是部署的地方，克隆你项目的pages分支，复制生成的html然后提交----------------end
         }
