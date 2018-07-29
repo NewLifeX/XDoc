@@ -42,3 +42,4 @@ launchSettings.json
 project.lock.json
 *.sublime-workspace
 _exported_templates
+/**/toc-temp*
