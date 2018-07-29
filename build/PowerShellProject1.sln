@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F5034706-568F-408A-B7B3-4D38C6DB8A32}") = "PowerShellProject1", "PowerShellProject1.pssproj", "{A3746209-CF63-423B-B96A-BB2EDCB1B00B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3746209-CF63-423B-B96A-BB2EDCB1B00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3746209-CF63-423B-B96A-BB2EDCB1B00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3746209-CF63-423B-B96A-BB2EDCB1B00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3746209-CF63-423B-B96A-BB2EDCB1B00B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B2034ED-EC63-4AEA-81D8-6D0D65453BBB}
+	EndGlobalSection
+EndGlobal
