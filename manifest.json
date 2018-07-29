@@ -61,6 +61,39 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/Cube/Batch/1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Cube/Batch/1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Cube/Batch/2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Cube/Batch/2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Cube/Batch/3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Cube/Batch/3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -77,11 +110,328 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/CubeCore/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CubeCore/index.html",
+          "hash": "WjaCfNOEDaftZnu/9AVTJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/CubeCore/中级教程/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CubeCore/中级教程/index.html",
+          "hash": "sj8j4bAuOfYfxNP7Jyhm2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/CubeCore/中级教程/自定义高级查询.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CubeCore/中级教程/自定义高级查询.html",
+          "hash": "ZM7yV1xp8qrjDo6Y/gNnLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/CubeCore/入门教程/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CubeCore/入门教程/index.html",
+          "hash": "HWNDFYucDbntpEvR59DXVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/CubeCore/入门教程/运行.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CubeCore/入门教程/运行.html",
+          "hash": "eS2uX48VDZk3o0L+tgAXQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/CubeCore/魔方core.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/CubeCore/魔方core.html",
+          "hash": "k1VQasRQ52qEIpH8qp+qPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/DotNetCore/index.md",
       "output": {
         ".html": {
           "relative_path": "articles/DotNetCore/index.html",
           "hash": "h24dG4ZQtukqTunx0ZYHkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/13eacd1e3bc86a36cf3fe4465a05b8ab.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/13eacd1e3bc86a36cf3fe4465a05b8ab.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/237b1c67e3befaef30a520823e28973c.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/237b1c67e3befaef30a520823e28973c.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/27e6aaecc6f902a571280099af349282.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/27e6aaecc6f902a571280099af349282.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/2e04fc46a0b60c16d1f62b27186bd016.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/2e04fc46a0b60c16d1f62b27186bd016.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/377741a986438ae6d1f7334f29b39c8a.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/377741a986438ae6d1f7334f29b39c8a.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/37979c1c52ba9c27ff985651a9a19288.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/37979c1c52ba9c27ff985651a9a19288.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/561a93552c512ff28b718612681054e9.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/561a93552c512ff28b718612681054e9.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/6ae63837347af892b8c159449bfef123.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/6ae63837347af892b8c159449bfef123.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/76595ba4995dbdb146e5e984aae795b7.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/76595ba4995dbdb146e5e984aae795b7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/884f69b83a2e780ded32f6faf244ae0d.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/884f69b83a2e780ded32f6faf244ae0d.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/b4cf14234c223a30e9eb9370507bdd3a.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/b4cf14234c223a30e9eb9370507bdd3a.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/bb14b29aa883e8f36166a9d78cafc00f.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/bb14b29aa883e8f36166a9d78cafc00f.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/bbc50d480d6a3955cbb22f7d206d0a20.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/bbc50d480d6a3955cbb22f7d206d0a20.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/bfa7bc5db9a353206b038cb9513f030e.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/bfa7bc5db9a353206b038cb9513f030e.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/c02a6f116c273ce03106ce24b2a1e431.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/c02a6f116c273ce03106ce24b2a1e431.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/c4b70724382d7e1b4bd2f048e8cfa043.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/c4b70724382d7e1b4bd2f048e8cfa043.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/ca5dfc125ed62e5a1f00d0345712880e.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/ca5dfc125ed62e5a1f00d0345712880e.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/cd1e6dab1788f6385eb36a6bdaf13da4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/cd1e6dab1788f6385eb36a6bdaf13da4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/e5bea41b066d6f6ca74313373197eb2e.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/e5bea41b066d6f6ca74313373197eb2e.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/e64623cbf8969a4b09d129532ebd2783.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/e64623cbf8969a4b09d129532ebd2783.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/f356781d7fe4bb80271d8b26490437d8.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/f356781d7fe4bb80271d8b26490437d8.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/DotNetCore/media/f4e6e5fbc35175e7466241f4d48dfade.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/DotNetCore/media/f4e6e5fbc35175e7466241f4d48dfade.png"
         }
       },
       "is_incremental": false,
@@ -379,12 +729,24 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/toc-temp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc-temp.html",
+          "hash": "Fnxj0jHf0ngQ4PP3b4wYmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Toc",
-      "source_relative_path": "articles/toc.yml",
+      "source_relative_path": "articles/toc.md",
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "oeoyKZozsW2qRXGKDzwz8A=="
+          "hash": "u14DpCtADk3xgiQb0A63eg=="
         }
       },
       "is_incremental": false,
@@ -422,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "wMovbNUl4UWIvcuSLTAgwQ=="
+          "hash": "hiVe5M0ZDkRgM+0rdxFviA=="
         }
       },
       "is_incremental": false,
@@ -437,6 +799,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -444,11 +811,6 @@
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "incrementalPhase": "build"
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
