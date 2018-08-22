@@ -21,15 +21,15 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "d5380c1f7305426cbea60aeb0783a79a"
+    "revision": "1a84f47b978e9b3fb8263ffb543d1931"
   },
   {
     "url": "Agent/index.html",
-    "revision": "4c8829d45a8b1130c1ddc7d149bb60b7"
+    "revision": "2dc6d3dfb44697cede4aaea58ab628cd"
   },
   {
     "url": "Api/index.html",
-    "revision": "2306f6386052e827d105e417fd10cab4"
+    "revision": "15abf1e4f462fd9a09bab47019b0b529"
   },
   {
     "url": "assets/css/0.styles.5bfd6125.css",
@@ -76,8 +76,8 @@ self.__precacheManifest = [
     "revision": "14480c1a84ebdaebf1a0c7585fbbf656"
   },
   {
-    "url": "assets/js/19.72e7a8df.js",
-    "revision": "f9d85909e72249799a96ccdc6e1313f5"
+    "url": "assets/js/19.1a412e29.js",
+    "revision": "139419415a57da8b30b42abe3a9c6f0b"
   },
   {
     "url": "assets/js/2.285762ea.js",
@@ -176,44 +176,44 @@ self.__precacheManifest = [
     "revision": "eaf896ce4ab59b6198afac176630bcb2"
   },
   {
-    "url": "assets/js/app.94b9aa14.js",
-    "revision": "0941c39b20c62d2d7a4eaa2ebd1386b5"
+    "url": "assets/js/app.bb0468f7.js",
+    "revision": "db07e74647d1747f8149e4cfd03c18df"
   },
   {
     "url": "Cube/index.html",
-    "revision": "0328fa87ca0d5a1ff90939b682732672"
+    "revision": "7941d018b09b23336d84da5ab6126f52"
   },
   {
     "url": "CubeCore/index.html",
-    "revision": "f0cd12ce88dc6c4950e35d6536089ee9"
+    "revision": "4b4bdc4d1313c50333c31f8921287f68"
   },
   {
     "url": "CubeCore/中级教程/index.html",
-    "revision": "f11c7bf81345a71944b1bbf6031d7af2"
+    "revision": "080e2eeecbcf1c13b656d44c471bc84c"
   },
   {
     "url": "CubeCore/中级教程/自定义高级查询.html",
-    "revision": "212fd9f889f8ee9af4a272fc6bc5b895"
+    "revision": "d45e563c8129bd5a6b67cd5875d8222d"
   },
   {
     "url": "CubeCore/入门教程/index.html",
-    "revision": "1a4e0826d8f21bd216fd00f770bd99a2"
+    "revision": "6a706c6fae2485493dfe84e651b0b4ed"
   },
   {
     "url": "CubeCore/入门教程/运行.html",
-    "revision": "9db4a6c205473241242aa31abc963cf1"
+    "revision": "ff06c73dd75f6fc5b06abb78e637c0fe"
   },
   {
     "url": "CubeCore/魔方core.html",
-    "revision": "4cdf1a362d0d5ff9ab0e81047aef0135"
+    "revision": "5005e2f09d5b363dabf49342c4adece4"
   },
   {
     "url": "DotNetCore/index.html",
-    "revision": "99188a9640da2910a3eec41b0baaab38"
+    "revision": "4615c1c99b0c6898097eb5b73468ca35"
   },
   {
     "url": "DotNetCore/netcore_centos.html",
-    "revision": "efad83736a19c714e26fc40cec2f370d"
+    "revision": "b661b8f621beab4ed76b1ab2ce93ea29"
   },
   {
     "url": "icons/logo-256x256.png",
@@ -221,7 +221,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "844136ae8135006cd55d8caa29f669c4"
+    "revision": "6a9a27796894671915f1b908d732d4b1"
   },
   {
     "url": "logo.png",
@@ -229,83 +229,91 @@ self.__precacheManifest = [
   },
   {
     "url": "Mobile/index.html",
-    "revision": "b97e53306af7c3a8a7d5b55ef5d611b0"
+    "revision": "0f72114684b9cfdb84eefdf6af01c320"
   },
   {
     "url": "Net/index.html",
-    "revision": "dea540107ffa2580c789b13e33dd6b5d"
+    "revision": "6eaadd0371518c0169f9ca9241643861"
   },
   {
     "url": "Net/新生命网络库客户端用法.html",
-    "revision": "b566b35304b168cbb7dc113f2aed3810"
+    "revision": "b4b303d30d6807ea27afd3b8b4ff5bd2"
   },
   {
     "url": "Net/新生命网络库比较典型的简单用法.html",
-    "revision": "b1186cf934aeb3504513bd4cd1e6dfb7"
+    "revision": "c469df3b041dd513bf8513a454d78aba"
   },
   {
     "url": "Reflect/index.html",
-    "revision": "59e65593e1e4de3d8a67a741b5a92fa0"
+    "revision": "4c811a101ef67aec0da64623fb5c000a"
   },
   {
     "url": "Security/index.html",
-    "revision": "32718ded9fc3d8c89c0e08b0b1d05872"
+    "revision": "4f6ba130f99610cea2adc1bf10a68e02"
   },
   {
     "url": "Serialization/index.html",
-    "revision": "21c83621b9a9b838d64aedd235532f2c"
+    "revision": "9d5ad6cb654f9d854771302cf3d41531"
   },
   {
     "url": "Thread/index.html",
-    "revision": "1a9513c7842ee7a7a8f3b46c69c4c1b5"
+    "revision": "803026921e403818e99983703e7e20ba"
   },
   {
     "url": "XCode/EntityCache.html",
-    "revision": "03e8210776d7496a6e2fc6f95c55e283"
+    "revision": "de9e25db209dc81deece1a8c69fa2820"
   },
   {
     "url": "XCode/ExtendProperty.html",
-    "revision": "b74325e275232dc0a21e2ba1fb39f936"
+    "revision": "1ca072b90343ae0aeb332761d33ef9cb"
   },
   {
     "url": "XCode/Get-Start.html",
-    "revision": "1d0e2bdfaf49d710c34eb6e620ff125e"
+    "revision": "139492f6a10f7c235454812ff119f117"
   },
   {
     "url": "XCode/index.html",
-    "revision": "bb9578036d5de84ad0c9f4e8017611c2"
+    "revision": "6513862390bd015fb2ee7fb2c4fd3a27"
   },
   {
     "url": "XCode/Migration.html",
-    "revision": "c5bb9127ec74e76648e166be325e5c14"
+    "revision": "581fda956a228a1a14df9b61eca6cadd"
   },
   {
     "url": "XCode/Model.html",
-    "revision": "bba2d30e7234378385abf252ea3cf2e7"
+    "revision": "7bad626fa14196dabadc4e0cd65d8e68"
   },
   {
     "url": "XCode/Normal.html",
-    "revision": "7be12d2eb3b7ae074c08b63af09d9b45"
+    "revision": "4393192c5aadff4172b88c969ea53bb3"
   },
   {
     "url": "XCode/Search.html",
-    "revision": "e283d6f0ca08a4a7fdfe4ee2541cd8f4"
+    "revision": "635ed229e2ee624e34cb4bb29553ca87"
   },
   {
     "url": "XCode/SingleCache.html",
-    "revision": "73d7cf240dde4df18b4b8634242da8de"
+    "revision": "c92496a2decf1027b884af92ac430b17"
   },
   {
     "url": "XCoder/index.html",
-    "revision": "58efe3d1a7d3ff7b426c8070e3745981"
+    "revision": "258699e068da3d7fc9ad393a741c624a"
+  },
+  {
+    "url": "XDoc/icons/logo-256x256.png",
+    "revision": "54777ef74089f77764def0145619805c"
+  },
+  {
+    "url": "XDoc/logo.png",
+    "revision": "54777ef74089f77764def0145619805c"
   },
   {
     "url": "XScript/index.html",
-    "revision": "c9ecb0abb6812c9182e2c743194cb243"
+    "revision": "882d0881f1f74d953447a5dd546bbf2d"
   },
   {
     "url": "XTemplate/index.html",
-    "revision": "260df04cb5d0300354c2df22be49333f"
+    "revision": "67aed363883ec45dc9d8e36816fa7c64"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
