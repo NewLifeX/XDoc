@@ -1,0 +1,15 @@
+{
+  "name": "XDoc",
+  "short_name": "XDoc",
+  "icons": [
+    {
+      "src": "/icons/logo-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3eaf7c"
+}

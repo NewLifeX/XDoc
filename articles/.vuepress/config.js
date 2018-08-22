@@ -1,7 +1,7 @@
 const sidebar = require('./sidebar.json')
 module.exports = {
     title: '新生命开发团队文档中心',
-    description: '新生命团队基础框架X组件，包括网络、数据库、安全、多线程、反射、序列化、模版引擎、服务代理、远程过程调用等模块，包括Mvc后台魔方、超级码神工具、消息队列等子系统，支持Mono/Android/iOS。',
+    description: '新生命团队基础框架X组件，包括日志、数据库、网络、RPC、序列化、缓存、Windows服务、多线程等模块，支持.Net Framework/.netstandard/Mono',
     dest: 'vuepress',
     base: '/XDoc/',
     serviceWorker: true,
