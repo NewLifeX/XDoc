@@ -1,11 +1,8 @@
+# CentOS安装使用.netcore极简教程
+
 [netcore]CentOS安装使用.netcore极简教程（免费提供学习服务器）
 =============================================================
 
-![http://pic.cnblogs.com/face/u19592.jpg?id=28155008](media/6ae63837347af892b8c159449bfef123.jpg)
-
-[大石头](http://home.cnblogs.com/u/nnhy/)  
-[关注 - 12](http://home.cnblogs.com/u/nnhy/followees)  
-[粉丝 - 816](http://home.cnblogs.com/u/nnhy/followers)
 
 本文目标是指引从未使用过Linux的.Neter，如何在CentOS7上安装.Net
 Core环境，以及部署.Net Core应用。
@@ -258,3 +255,5 @@ Core**应用成功在**CentOS**上跑起来
 End.
 
 我不相信神话，我只相信汗水！我不相信命运，我只相信双手！
+
+[原文地址](https://www.cnblogs.com/nnhy/p/netcore_centos.html)

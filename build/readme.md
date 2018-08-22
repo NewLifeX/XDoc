@@ -1,6 +1,8 @@
 # 构建说明
 
-- 此文件夹工程可在vs打开进行调试，使用上可以单个脚本运行
+## build-sidebar.ps1
+
+- 生成vuepress所需侧边栏菜单，需要配置输入输出
 
 ## build-toc.ps1
 

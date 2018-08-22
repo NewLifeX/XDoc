@@ -2,6 +2,7 @@
 #    folder   #
 ###############
 _site
+origin_site
 /**/DROP/
 /**/TEMP/
 /**/packages/
@@ -43,3 +44,5 @@ project.lock.json
 *.sublime-workspace
 _exported_templates
 /**/toc-temp*
+vuepress
+yarn.lock
