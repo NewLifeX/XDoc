@@ -21,19 +21,19 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "3c1445a2b09fb970d77671ab7c8589a8"
+    "revision": "d5380c1f7305426cbea60aeb0783a79a"
   },
   {
     "url": "Agent/index.html",
-    "revision": "00eea617a6a07c123c40122b7a5994c3"
+    "revision": "4c8829d45a8b1130c1ddc7d149bb60b7"
   },
   {
     "url": "Api/index.html",
-    "revision": "0cb14637ef6ce6b992af24b385d0d390"
+    "revision": "2306f6386052e827d105e417fd10cab4"
   },
   {
-    "url": "assets/css/0.styles.ca81c8eb.css",
-    "revision": "26079042b395827fed51e0a8cf03679f"
+    "url": "assets/css/0.styles.5bfd6125.css",
+    "revision": "cce1cedce2501badac823b1d23aa886c"
   },
   {
     "url": "assets/img/search.83621669.svg",
@@ -176,44 +176,44 @@ self.__precacheManifest = [
     "revision": "eaf896ce4ab59b6198afac176630bcb2"
   },
   {
-    "url": "assets/js/app.137aedef.js",
-    "revision": "f815fc3b2b028d5e4a554489652f1067"
+    "url": "assets/js/app.94b9aa14.js",
+    "revision": "0941c39b20c62d2d7a4eaa2ebd1386b5"
   },
   {
     "url": "Cube/index.html",
-    "revision": "c30ac0908703d610678c7577ff31a79b"
+    "revision": "0328fa87ca0d5a1ff90939b682732672"
   },
   {
     "url": "CubeCore/index.html",
-    "revision": "811d3f0049f54ef904d4069d3d1a4a28"
+    "revision": "f0cd12ce88dc6c4950e35d6536089ee9"
   },
   {
     "url": "CubeCore/中级教程/index.html",
-    "revision": "4309c0c5ee3637b493dfb3bdf3a977f1"
+    "revision": "f11c7bf81345a71944b1bbf6031d7af2"
   },
   {
     "url": "CubeCore/中级教程/自定义高级查询.html",
-    "revision": "f8a1e7896bd9fe80ee25c9cd86cb1cff"
+    "revision": "212fd9f889f8ee9af4a272fc6bc5b895"
   },
   {
     "url": "CubeCore/入门教程/index.html",
-    "revision": "78ac1e8c66cc99e774906e1eedba9972"
+    "revision": "1a4e0826d8f21bd216fd00f770bd99a2"
   },
   {
     "url": "CubeCore/入门教程/运行.html",
-    "revision": "424cbd23a9ba8d7198d0a6a7319fe862"
+    "revision": "9db4a6c205473241242aa31abc963cf1"
   },
   {
     "url": "CubeCore/魔方core.html",
-    "revision": "3c2c31ec7181e1d7367f92e3b6db816e"
+    "revision": "4cdf1a362d0d5ff9ab0e81047aef0135"
   },
   {
     "url": "DotNetCore/index.html",
-    "revision": "5450f0eeeb8f3960a89954a1389538f6"
+    "revision": "99188a9640da2910a3eec41b0baaab38"
   },
   {
     "url": "DotNetCore/netcore_centos.html",
-    "revision": "f794ce3b0a981e8d32a1ca4bc82df645"
+    "revision": "efad83736a19c714e26fc40cec2f370d"
   },
   {
     "url": "icons/logo-256x256.png",
@@ -221,7 +221,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "b0e852df0b0c0073f64b49e281298e08"
+    "revision": "844136ae8135006cd55d8caa29f669c4"
   },
   {
     "url": "logo.png",
@@ -229,83 +229,83 @@ self.__precacheManifest = [
   },
   {
     "url": "Mobile/index.html",
-    "revision": "61ddeaf3166db59620ed3896eb926683"
+    "revision": "b97e53306af7c3a8a7d5b55ef5d611b0"
   },
   {
     "url": "Net/index.html",
-    "revision": "88dbbaf9fb86ce8fe4f8c9f52cde3000"
+    "revision": "dea540107ffa2580c789b13e33dd6b5d"
   },
   {
     "url": "Net/新生命网络库客户端用法.html",
-    "revision": "a76fd889adec13003e9357d898b7f92e"
+    "revision": "b566b35304b168cbb7dc113f2aed3810"
   },
   {
     "url": "Net/新生命网络库比较典型的简单用法.html",
-    "revision": "108b242c69ca67a20c6f113b1963f2a2"
+    "revision": "b1186cf934aeb3504513bd4cd1e6dfb7"
   },
   {
     "url": "Reflect/index.html",
-    "revision": "7d81256cbf46c371f70ba30114a46119"
+    "revision": "59e65593e1e4de3d8a67a741b5a92fa0"
   },
   {
     "url": "Security/index.html",
-    "revision": "9f161a268b5ab5e851fd12aefdc64178"
+    "revision": "32718ded9fc3d8c89c0e08b0b1d05872"
   },
   {
     "url": "Serialization/index.html",
-    "revision": "038f0c1e596ea9a4e4a1ba92dbf11c24"
+    "revision": "21c83621b9a9b838d64aedd235532f2c"
   },
   {
     "url": "Thread/index.html",
-    "revision": "bb36565909dc29a9e408e088126677d8"
+    "revision": "1a9513c7842ee7a7a8f3b46c69c4c1b5"
   },
   {
     "url": "XCode/EntityCache.html",
-    "revision": "6fc6b6abe896714560287f8f81417d13"
+    "revision": "03e8210776d7496a6e2fc6f95c55e283"
   },
   {
     "url": "XCode/ExtendProperty.html",
-    "revision": "339de83bb3cd0e1d283a885073a22429"
+    "revision": "b74325e275232dc0a21e2ba1fb39f936"
   },
   {
     "url": "XCode/Get-Start.html",
-    "revision": "2185899554b10c0af2c6ba35f08e99e9"
+    "revision": "1d0e2bdfaf49d710c34eb6e620ff125e"
   },
   {
     "url": "XCode/index.html",
-    "revision": "2b4b14d36ea3152427dad47ed5693d2b"
+    "revision": "bb9578036d5de84ad0c9f4e8017611c2"
   },
   {
     "url": "XCode/Migration.html",
-    "revision": "84cd63d1ecc11b25b270712bd1004f13"
+    "revision": "c5bb9127ec74e76648e166be325e5c14"
   },
   {
     "url": "XCode/Model.html",
-    "revision": "d4fcdde9ffa8cfbce40f84e4c67b7bf8"
+    "revision": "bba2d30e7234378385abf252ea3cf2e7"
   },
   {
     "url": "XCode/Normal.html",
-    "revision": "e52341353872b08e5e4e204642bab0c9"
+    "revision": "7be12d2eb3b7ae074c08b63af09d9b45"
   },
   {
     "url": "XCode/Search.html",
-    "revision": "6c0d548ae4eb896543e7b302858e10bb"
+    "revision": "e283d6f0ca08a4a7fdfe4ee2541cd8f4"
   },
   {
     "url": "XCode/SingleCache.html",
-    "revision": "19fa89bfb41a5f283de9c75d06c3ddfa"
+    "revision": "73d7cf240dde4df18b4b8634242da8de"
   },
   {
     "url": "XCoder/index.html",
-    "revision": "77cf7b55760e3913e469c2155733c4ef"
+    "revision": "58efe3d1a7d3ff7b426c8070e3745981"
   },
   {
     "url": "XScript/index.html",
-    "revision": "75ca2fc59239aff2520be6227b739deb"
+    "revision": "c9ecb0abb6812c9182e2c743194cb243"
   },
   {
     "url": "XTemplate/index.html",
-    "revision": "1e57d992b3a045686b2b32733ff01060"
+    "revision": "260df04cb5d0300354c2df22be49333f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
