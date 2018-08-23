@@ -50,8 +50,11 @@ on_success: # 成功构建之后部署
 
             #-----------这里就是部署的地方，克隆你项目的pages分支，复制生成的html然后提交--------------start
             # git clone https://github.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME.git -b gh-pages origin_site -q
-            # Copy-Item origin_site/.git _site -recurse
-            # CD _site
+            # rm origin_site/* -recurse
+            # vuepress build articles
+            # git clone https://github.com/NewLifeX/XDoc.git -b gh-pages origin_site -q
+            # Copy-Item origin_site/.git vuepress -recurse
+            # CD vuepress
             # git add -A 2>&1
             # git commit -m "CI Updates" -q
             # git push origin gh-pages -q

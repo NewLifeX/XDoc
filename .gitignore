@@ -46,3 +46,4 @@ _exported_templates
 /**/toc-temp*
 vuepress
 yarn.lock
+temp.ps1
