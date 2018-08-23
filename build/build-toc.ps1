@@ -4,70 +4,6 @@
 
 param($Directory)
 
-class Toc {
-    Toc($content) {
-        $this.TContent = $content
-    }
-
-    [string[]] $TContent
-    [Collections.Generic.List[TocItem]] $Items = [Collections.Generic.List[TocItem]]::new(4)
-
-    # 转化成对象
-    [TocItem[]] ToToc($i, [TocItem[]] $tocItems) {
-        $content = $this.TContent
-
-        for (; $i -lt $content.Length; $i++) {
-            [string] $item = $content[$i]
-
-            if (!$item.TrimStart(" ").StartsWith("- name")) {
-                continue
-            }
-
-            [TocItem] $tocItem = [TocItem]::new()
-
-            if ($tocItems.Count -eq 0 ) {
-                $tocItems = @($tocItem)
-            }
-            else {
-                $tocItems = $tocItems + $tocItem
-            }
-
-
-            #$tocItems.Add($tocItem)
-
-            $tocItem.Name = $item
-
-            $item = $content[$i + 1]
-
-            if ($item.TrimStart(" ").StartsWith("href")) {
-                $tocItem.Href = $item
-                $i++
-                $item = $content[$i + 1]
-            }
-
-            if ($item.TrimStart(" ").StartsWith("items")) {
-                $tocItem.Items = [Collections.Generic.List[TocItem]]::new()
-                $i++
-                $this.ToToc($i, $tocItem.Items)
-            }
-        }
-
-        return $tocItems
-    }
-
-    [string] ToString () {
-        return "666"
-    }
-}
-
-class TocItem {
-    [string] $Name
-    [string] $Href
-    [Collections.Generic.List[TocItem]] $Items
-}
-
-
-
 # 目录文件
 $tocPath = $Directory + "/toc.md"
 
@@ -81,10 +17,6 @@ $tocPath = $Directory + "/toc.md"
 If (Test-Path $tocPath) {
     $tocContent = Get-Content -Path $tocPath -Encoding UTF8
 }
-
-#$toc = [Toc]::new($tocContent)
-#$toc.ToToc(0, $toc.Items)
-#$toc.ToString()
 
 # 构建目录
 function buildToc($dirPath) {
@@ -197,4 +129,11 @@ function getSharp($depth) {
 }
 
 $newToc = buildToc($Directory);
+
+# 保存内容
 $newToc | Out-File "utf8" -FilePath ([System.IO.Path]::Combine($Directory, "toc-temp.md"))
+
+if(Test-Path ([System.IO.Path]::Combine($Directory, "toc.md"))
+{
+    $newToc | Out-File "utf8" -FilePath ([System.IO.Path]::Combine($Directory, "toc.md"))
+}

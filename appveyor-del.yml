@@ -10,7 +10,7 @@ init: # 初始化
   - ps: |
         write-host $env:APPVEYOR_ACCOUNT_NAME
         write-host $env:APPVEYOR_PROJECT_NAME
-        write-host $env:APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME
+        write-host "https://$env:APPVEYOR_ACCOUNT_NAME.github.io/$env:APPVEYOR_PROJECT_NAME/"
 install: #
     # 以下通过choco安装docfx
   - ps: |
@@ -49,12 +49,15 @@ on_success: # 成功构建之后部署
             #-----------配置git账号信息，使用到的就是上面的环境变量------------------------------------end
 
             #-----------这里就是部署的地方，克隆你项目的pages分支，复制生成的html然后提交--------------start
-            git clone https://github.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME.git -b gh-pages origin_site -q
-            Copy-Item origin_site/.git _site -recurse
-            CD _site
-            git add -A 2>&1
-            git commit -m "CI Updates" -q
-            git push origin gh-pages -q
-            exit $LASTEXITCODE
+            # git clone https://github.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME.git -b gh-pages origin_site -q
+            # rm origin_site/* -recurse
+            # vuepress build articles
+            # git clone https://github.com/NewLifeX/XDoc.git -b gh-pages origin_site -q
+            # Copy-Item origin_site/.git vuepress -recurse
+            # CD vuepress
+            # git add -A 2>&1
+            # git commit -m "CI Updates" -q
+            # git push origin gh-pages -q
+            # exit 0
             #-----------这里就是部署的地方，克隆你项目的pages分支，复制生成的html然后提交----------------end
         }

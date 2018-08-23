@@ -2,6 +2,7 @@
 #    folder   #
 ###############
 _site
+origin_site
 /**/DROP/
 /**/TEMP/
 /**/packages/
@@ -19,7 +20,7 @@ target/
 /**/_site/
 .vscode/
 .vs/
-_exported_templates
+/_exported_templates
 
 ###############
 #  temp file  #
@@ -28,7 +29,7 @@ _exported_templates
 *.log
 *.tmp
 *.vsprops
-*.suo
+*.suo 
 *.user
 *.userprefs
 *.sdf
@@ -42,4 +43,9 @@ debugSettings.json
 launchSettings.json
 project.lock.json
 *.sublime-workspace
+_exported_templates
+/**/toc-temp*
+vuepress
+yarn.lock
+temp.ps1
 *-temp*

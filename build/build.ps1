@@ -35,8 +35,9 @@ foreach($item in $dirList){
 
 # 每一个文件夹视为一个栏目，生成根目录下的toc.yml
 $topTocPath = ($basePath + "toc.yml")
+
+$topTocContent | Out-File  -FilePath $($basePath + "toc-temp.yml") -Encoding utf8
+
 If(!(Test-Path $topTocPath)){
-
+    $topTocContent | Out-File  -FilePath $topTocPath -Encoding utf8
 }
-
-$topTocContent | Out-File  -FilePath $topTocPath -Encoding utf8
