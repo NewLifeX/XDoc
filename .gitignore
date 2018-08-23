@@ -20,6 +20,7 @@ target/
 /**/_site/
 .vscode/
 .vs/
+/_exported_templates
 
 ###############
 #  temp file  #
@@ -28,7 +29,7 @@ target/
 *.log
 *.tmp
 *.vsprops
-*.suo
+*.suo 
 *.user
 *.userprefs
 *.sdf
@@ -47,3 +48,4 @@ _exported_templates
 vuepress
 yarn.lock
 temp.ps1
+*-temp*
