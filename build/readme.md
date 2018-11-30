@@ -1,8 +1,12 @@
 # 构建说明
 
-## build-sidebar.ps1
+## vuepress生成文档
 
-- 生成vuepress所需侧边栏菜单，需要配置输入输出
+- build-sidebar.ps1在文件管理打开，右键选中，选择`使用PowerShell`运行
+- 生成vuepress所需侧边栏菜单，输出到`/articles/.vuepress/sidebar.json`
+- vuepress根据`sidebar.json`生成侧边栏菜单
+- `vuepress dev`运行项目
+- `vuepress build`发布项目
 
 ## build-toc.ps1
 

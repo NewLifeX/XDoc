@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "powershell ./build/build-sidebar.ps1 && vuepress build articles"
+    "build": "powershell ./build/build-sidebar.ps1 && vuepress build articles",
+    "dev": "powershell ./build/build-sidebar.ps1 && vuepress dev articles"
   },
   "devDependencies": {
     "vuepress": "^0.13.0"

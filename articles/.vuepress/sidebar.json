@@ -3,7 +3,7 @@
         "title": "中级教程",
         "children": [
             "",
-            "INDEX.md",
+            "index.md",
             "自定义高级查询.md"
         ]
     }],
@@ -18,14 +18,14 @@
         "title": "CubeCore",
         "children": [
             "",
-            "魔方CORE.md"
+            "魔方core.md"
         ]
     }],
     "/DotNetCore/": [{
         "title": "DotNetCore",
         "children": [
             "",
-            "NETCORE_CENTOS.md"
+            "netcore_centos.md"
         ]
     }],
     "/Net/": [{
@@ -40,14 +40,14 @@
         "title": "XCode",
         "children": [
             "",
-            "ENTITYCACHE.md",
-            "EXTENDPROPERTY.md",
-            "GET-START.md",
-            "MIGRATION.md",
-            "MODEL.md",
-            "NORMAL.md",
-            "SEARCH.md",
-            "SINGLECACHE.md"
+            "EntityCache.md",
+            "ExtendProperty.md",
+            "Get-Start.md",
+            "Migration.md",
+            "Model.md",
+            "Normal.md",
+            "Search.md",
+            "SingleCache.md"
         ]
     }]
 }

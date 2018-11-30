@@ -62,7 +62,24 @@ module.exports = {
         nav: [
             {
                 text: 'XCode',
-                link: '/XCode/'
+                items:[
+                    {
+                        text: 'XCode',
+                        link: '/XCode/'
+                    },{
+                        text: 'CURD基础使用',
+                        link: '/CURD基础使用/'
+                    },{
+                        text: 'XML模型文件',
+                        link: '/XML模型文件/'
+                    },{
+                        text: '分表分库',
+                        link: '/分表分库/'
+                    },{
+                        text: '高级功能',
+                        link: '/高级功能/'
+                    }
+                ]
             },
             {
                 text: 'DotNetCore',
@@ -80,6 +97,9 @@ module.exports = {
             },{
                 text:'网络库',
                 link:'/Net/'
+            },{
+                text:'Redis',
+                link:'/Redis/'
             }
         ],
         sidebar: sidebar
