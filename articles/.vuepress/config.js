@@ -3,7 +3,7 @@ module.exports = {
     title: '新生命开发团队文档中心',
     description: '新生命团队基础框架X组件，包括日志、数据库、网络、RPC、序列化、缓存、Windows服务、多线程等模块，支持.Net Framework/.netstandard/Mono',
     dest: 'vuepress',
-    base: '/XDoc/',
+    base: '', // 基本路径
     serviceWorker: true,
     locales: {
         '/': {

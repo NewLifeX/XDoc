@@ -36,6 +36,13 @@
             "新生命网络库比较典型的简单用法.md"
         ]
     }],
+    "/XCode/fundamentals/": [{
+        "title": "fundamentals",
+        "children": [
+            "",
+            "install.md"
+        ]
+    }],
     "/XCode/": [{
         "title": "XCode",
         "children": [
@@ -47,7 +54,15 @@
             "Model.md",
             "Normal.md",
             "Search.md",
-            "SingleCache.md"
+            "SingleCache.md",
+            "入门.md"
+        ]
+    }],
+    "/培训/": [{
+        "title": "培训",
+        "children": [
+            "",
+            "数据中间件XCode入门（一）.md"
         ]
     }]
 }
