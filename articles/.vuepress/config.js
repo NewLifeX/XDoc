@@ -100,6 +100,9 @@ module.exports = {
             },{
                 text:'Redis',
                 link:'/Redis/'
+            },{
+                text:'培训',
+                link:'/training/'
             }
         ],
         sidebar: sidebar

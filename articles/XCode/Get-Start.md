@@ -1,4 +1,4 @@
-# 入门
+# 快速上手
 
 ### 打开Visual Studio，新建一个控制台应用
 
@@ -98,7 +98,7 @@ using XCode.Code;
             // 相当于Select UserName,Age From UserInfo Where UserName='张三' And Age=19 Order By  UserName desc
 ```
 
-带分页排序的复杂查询  
+带分页排序的复杂查询
 一般写在实体类业务文件（.Biz.cs）里面
 ```csharp
 public static IList<UserInfo> Search(String name, Int32 age, Pager p)
@@ -144,25 +144,25 @@ void Test()
 
 ## 相关教程
 * 初级
-[ORM组件XCode（简介）](http://www.cnblogs.com/nnhy/archive/2010/09/13/1824666.html)  
-[ORM组件XCode（动手）](http://www.cnblogs.com/nnhy/archive/2010/09/15/1826602.html)  
+[ORM组件XCode（简介）](http://www.cnblogs.com/nnhy/archive/2010/09/13/1824666.html)
+[ORM组件XCode（动手）](http://www.cnblogs.com/nnhy/archive/2010/09/15/1826602.html)
 ---
 * 系列
-[NewLife.XCode 上手指南](http://www.cnblogs.com/JangoJing/archive/2012/07/26/2610034.html)  
-[NewLife.XCode 上手指南(二) 反向工程使用举例](http://www.cnblogs.com/JangoJing/archive/2012/07/26/2610368.html)  
-[NewLife.Xcode 上手指南(三) 扩展属性的使用](http://www.cnblogs.com/JangoJing/archive/2012/07/31/2616238.html)  
-[NewLife.XCode 上手指南(四) 级联操作](http://www.cnblogs.com/JangoJing/archive/2012/08/02/2619311.html)  
-[NewLife.XCode 上手指南(五) 复杂查询](http://www.cnblogs.com/JangoJing/archive/2012/08/17/2644124.html)  
+[NewLife.XCode 上手指南](http://www.cnblogs.com/JangoJing/archive/2012/07/26/2610034.html)
+[NewLife.XCode 上手指南(二) 反向工程使用举例](http://www.cnblogs.com/JangoJing/archive/2012/07/26/2610368.html)
+[NewLife.Xcode 上手指南(三) 扩展属性的使用](http://www.cnblogs.com/JangoJing/archive/2012/07/31/2616238.html)
+[NewLife.XCode 上手指南(四) 级联操作](http://www.cnblogs.com/JangoJing/archive/2012/08/02/2619311.html)
+[NewLife.XCode 上手指南(五) 复杂查询](http://www.cnblogs.com/JangoJing/archive/2012/08/17/2644124.html)
 ---
 * 进阶
-> [充血模型的ORM能做什么？——ORM组件XCode（十八般武艺）](http://www.cnblogs.com/nnhy/archive/2010/09/25/1834320.html)  
->[NewLife.XCode中如何借助分部抽象多个具有很多共同字段的实体类](http://www.cnblogs.com/nnhy/archive/2012/04/27/2473052.html)  
->[ORM组件XCode（撬动千万级数据）](http://www.cnblogs.com/nnhy/archive/2010/09/15/1827477.html)  
->[ORM组件XCode（动手）](http://www.cnblogs.com/nnhy/archive/2010/09/15/1826602.html)  
+> [充血模型的ORM能做什么？——ORM组件XCode（十八般武艺）](http://www.cnblogs.com/nnhy/archive/2010/09/25/1834320.html)
+>[NewLife.XCode中如何借助分部抽象多个具有很多共同字段的实体类](http://www.cnblogs.com/nnhy/archive/2012/04/27/2473052.html)
+>[ORM组件XCode（撬动千万级数据）](http://www.cnblogs.com/nnhy/archive/2010/09/15/1827477.html)
+>[ORM组件XCode（动手）](http://www.cnblogs.com/nnhy/archive/2010/09/15/1826602.html)
 
 
 
- 
-#### 新生命开发团队  
-网站：http://www.NewLifeX.com  
-QQ群：1600800  
+
+#### 新生命开发团队
+网站：http://www.NewLifeX.com
+QQ群：1600800
