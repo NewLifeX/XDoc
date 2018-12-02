@@ -41,8 +41,17 @@
         "children": [
             "",
             "net.md",
+            "newlife.cube.md",
             "newlife.redis.md",
             "xcode-get-start-1.md"
+        ]
+    }],
+    "/XCode/cache/": [{
+        "title": "cache",
+        "children": [
+            "",
+            "entity-cache.md",
+            "single-cache.md"
         ]
     }],
     "/XCode/fundamentals/": [{
@@ -64,14 +73,12 @@
         "title": "XCode",
         "children": [
             "",
-            "EntityCache.md",
             "ExtendProperty.md",
             "Get-Start.md",
             "Migration.md",
             "Model.md",
             "Normal.md",
             "Search.md",
-            "SingleCache.md",
             "入门.md"
         ]
     }]

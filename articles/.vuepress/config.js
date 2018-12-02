@@ -72,6 +72,9 @@ module.exports = {
                     },{
                         text: '模型',
                         link: '/XCode/modeling/'
+                    },{
+                        text: '查询',
+                        link: '/XCode/querying/'
                     }
                 ]
             },
