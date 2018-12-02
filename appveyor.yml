@@ -11,7 +11,7 @@ init: # 初始化
   - ps: |
         write-host $env:APPVEYOR_ACCOUNT_NAME
         write-host $env:APPVEYOR_PROJECT_NAME
-        write-host "https://$env:APPVEYOR_ACCOUNT_NAME.github.io/$env:APPVEYOR_PROJECT_NAME/"
+        # write-host "https://$env:APPVEYOR_ACCOUNT_NAME.github.io/$env:APPVEYOR_PROJECT_NAME/"
 install: #
     # 以下通过choco安装docfx
   - ps: |
@@ -21,10 +21,10 @@ install: #
             # choco install docfx -y
             # choco install nuget.commandline -y
         }
-  - ps: >-
-      write-host '准备安装vuepress'
-      npm install -g vuepress@0.14.8
-      write-host '安装完成vuepress'
+  - ps: |
+        write-host '准备安装vuepress'
+        npm install -g vuepress@0.14.8
+        write-host '安装完成vuepress'
 build_script: # 构建生成
   - ps: |
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
@@ -38,15 +38,15 @@ build_script: # 构建生成
             #}
             #-----------利用docfx命令生成html-------------------------------------------------------end
         }
-  - ps: >-
-      write-host '开始构建 '
-      npm run build
-      # vuepress build articles
-      write-host '结束构建 '
+  - ps: |
+        write-host '开始构建 '
+        npm run build
+        # vuepress build articles
+        write-host '结束构建 '
 test_script:
-  - ps: >-
-      node -v
-      vuepress -V
+  - ps: |
+        node -v
+        vuepress -V
 on_success: # 成功构建之后部署
     # 以下就是配置git账号和token，将最终生成的html部署（提交）到你的站点（仓库），
   - ps: |
@@ -66,7 +66,8 @@ on_success: # 成功构建之后部署
             CD vuepress
             git add -A 2>&1
             git commit -m "CI Updates" -q
-            git push origin gh-pages -q
+            git push origin master -q
+            write-host '发布成功'
             exit 0
             #-----------这里就是部署的地方，克隆你项目的pages分支，复制生成的html然后提交----------------end
         }
