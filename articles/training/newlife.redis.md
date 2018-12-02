@@ -6,7 +6,7 @@
 - 培训内容：100亿小数据使用经验技巧分享
 - 整理文章：
   - https://www.cnblogs.com/yilezhu/p/9941208.html
-  - [Redis](/Redis)
+  - [Redis](/Redis/)
 
 ## 具体内容
 

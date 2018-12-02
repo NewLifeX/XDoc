@@ -1,4 +1,4 @@
-Write-Host "********************generate sidebar start!***********************"
+﻿Write-Host "********************generate sidebar start!***********************"
 
 <#
 vuepress 生成侧边栏json，需要配置输入输出
