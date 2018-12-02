@@ -1,4 +1,4 @@
-# 魔方Newlife.Cube权限系统的使用及模版覆盖详解
+# 魔方Cube
 
 - 视频地址1: https://pan.baidu.com/s/1zEUkG7YXnVdvTLq6dJBhzg
 - 视频地址2: https://pan.baidu.com/s/10omTlET99DF-4cgG2bObzw

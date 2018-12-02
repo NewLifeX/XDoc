@@ -1,4 +1,4 @@
-# 数据中间件XCode入门（一）
+# XCode入门（一）
 
 - 视频地址：https://pan.baidu.com/s/1TfH5LJ1v2fWH4uQ4KZeIMA
 - 培训内容：
