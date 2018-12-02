@@ -40,6 +40,8 @@
         "title": "training",
         "children": [
             "",
+            "net.md",
+            "newlife.redis.md",
             "xcode-get-start-1.md"
         ]
     }],

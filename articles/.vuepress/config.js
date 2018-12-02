@@ -67,17 +67,11 @@ module.exports = {
                         text: 'XCode',
                         link: '/XCode/'
                     },{
-                        text: 'CURD基础使用',
-                        link: '/CURD基础使用/'
+                        text: '基础知识',
+                        link: '/fundamentals/'
                     },{
-                        text: 'XML模型文件',
-                        link: '/XML模型文件/'
-                    },{
-                        text: '分表分库',
-                        link: '/分表分库/'
-                    },{
-                        text: '高级功能',
-                        link: '/高级功能/'
+                        text: '模型',
+                        link: '/modeling/'
                     }
                 ]
             },

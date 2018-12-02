@@ -9,11 +9,14 @@ $PSScriptRoot 为当前脚本所在目录
 
 
 # 搜索md文件的目录
-$targetDir = "/../articles/"
-$targetDir = $PSScriptRoot + $targetDir
+$targetDir = $PSScriptRoot + "/../articles/"
 
 # 输出文件名
 $output = "/../articles/.vuepress/sidebar.json"
+
+Write-Host "脚本执行所在目录：" $PSScriptRoot
+Write-Host "md文件搜索目录：" $targetDir
+Write-Host "sidebar.json输出目录：" $output
 
 # 初始化文件夹信息对象
 $buildPath = [System.IO.DirectoryInfo]::new($targetDir).FullName
@@ -42,7 +45,7 @@ $fileInfos | ForEach-Object{
             # 补全中括号和括号
             $tocContent =  $tocContent + ($indentation + '        ]') + ($indentation + '    }],')
         }
-        
+
         # 输出title和children
         $tocContent =  $tocContent + ($indentation + '    "' + $rPath + '": [{') + ($indentation + '        "title": "' + $fileInfo.Directory.Name + '",') + ($indentation + '        "children": [')
         # 输出""，表示readme.md也作为侧边栏菜单
@@ -66,5 +69,5 @@ $tocContent  = $tocContent + ($indentation + '}')
 
 # 输出到文件
 $tocContent | Out-File -FilePath ($PSScriptRoot + $output) -Encoding "utf8"
-
+Write-Host $tocContent
 Write-Host "********************generate sidebar end!***********************"
