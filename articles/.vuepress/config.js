@@ -68,10 +68,10 @@ module.exports = {
                         link: '/XCode/'
                     },{
                         text: '基础知识',
-                        link: '/fundamentals/'
+                        link: '/XCode/fundamentals/'
                     },{
                         text: '模型',
-                        link: '/modeling/'
+                        link: '/XCode/modeling/'
                     }
                 ]
             },
