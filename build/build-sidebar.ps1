@@ -12,7 +12,7 @@ $PSScriptRoot 为当前脚本所在目录
 $targetDir = $PSScriptRoot + "/../articles/"
 
 # 输出文件名
-$output = "/../articles/.vuepress/sidebar.json"
+$output = $PSScriptRoot + "/../articles/.vuepress/sidebar.json"
 
 Write-Host "脚本执行所在目录：" $PSScriptRoot
 Write-Host "md文件搜索目录：" $targetDir
@@ -68,6 +68,6 @@ $tocContent[0] = $indentation + '{'
 $tocContent  = $tocContent + ($indentation + '}')
 
 # 输出到文件
-$tocContent | Out-File -FilePath ($PSScriptRoot + $output) -Encoding "utf8"
+$tocContent | Out-File -FilePath $output -Encoding "utf8"
 Write-Host $tocContent
 Write-Host "********************generate sidebar end!***********************"
