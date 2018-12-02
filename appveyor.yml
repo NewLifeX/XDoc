@@ -1,10 +1,11 @@
+image: Visual Studio 2017 # 镜像，也就是所依赖的环境
+clone_folder: c:\projects\xdoc # 克隆下来的位置
 environment: # 环境变量，在这里声明，下面使用
-  op_build_user: "OpenPublishBuild"
-  op_build_user_email: "vscopbld@microsoft.com"
+  op_build_user: "xxred"
+  op_build_user_email: "xxred0324@qq.com"
   access_token:
     secure: bCtIcPHYlrOYLppEVAH8R4VZpAWou5dKlDhbEPyXfgmI9wEMvH4MD0fFXYrv5sLS
 
-image: Visual Studio 2017 # 镜像，也就是所依赖的环境
 init: # 初始化
   - git config --global core.autocrlf false # 禁止自动完成标准化与转换（CRLF 与 LF 自动转换）
   - ps: |
@@ -20,22 +21,32 @@ install: #
             # choco install docfx -y
             # choco install nuget.commandline -y
         }
+  - ps: >-
+      write-host '准备安装vuepress'
+      npm install -g vuepress@0.14.8
+      write-host '安装完成vuepress'
 build_script: # 构建生成
   - ps: |
         if(-Not $env:APPVEYOR_PULL_REQUEST_TITLE)
         {
             #-----------利用docfx命令生成html-----------------------------------------------------start
-            & nuget install docfx.console -Version 2.36.2 # -Source https://www.myget.org/F/docfx/api/v3/index.json
-            & docfx.console.2.36.2\tools\docfx.exe docfx.json
+            #& nuget install docfx.console -Version 2.36.2 # -Source https://www.myget.org/F/docfx/api/v3/index.json
+            #& docfx.console.2.36.2\tools\docfx.exe docfx.json
             # & docfx docfx.json
-            if ($lastexitcode -ne 0){
-              throw [System.Exception] "docfx build failed with exit code $lastexitcode."
-            }
+            #if ($lastexitcode -ne 0){
+            #  throw [System.Exception] "docfx build failed with exit code $lastexitcode."
+            #}
             #-----------利用docfx命令生成html-------------------------------------------------------end
         }
-# 编译.net项目，这里暂时用不到，先注释
-#  - msbuild src/SampleClass1/SampleClass1.sln
-
+  - ps: >-
+      write-host '开始构建 '
+      npm run build
+      # vuepress build articles
+      write-host '结束构建 '
+  test_script:
+  - ps: >-
+      node -v
+      vuepress -V
 on_success: # 成功构建之后部署
     # 以下就是配置git账号和token，将最终生成的html部署（提交）到你的站点（仓库），
   - ps: |
@@ -43,21 +54,19 @@ on_success: # 成功构建之后部署
         {
             #-----------配置git账号信息，使用到的就是上面的环境变量----------------------------------start
             git config --global credential.helper store
-            # Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
+            Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
             git config --global user.email $env:op_build_user_email
             git config --global user.name $env:op_build_user
             #-----------配置git账号信息，使用到的就是上面的环境变量------------------------------------end
 
             #-----------这里就是部署的地方，克隆你项目的pages分支，复制生成的html然后提交--------------start
-            # git clone https://github.com/$env:APPVEYOR_ACCOUNT_NAME/$env:APPVEYOR_PROJECT_NAME.git -b gh-pages origin_site -q
-            # rm origin_site/* -recurse
-            # vuepress build articles
-            # git clone https://github.com/NewLifeX/XDoc.git -b gh-pages origin_site -q
-            # Copy-Item origin_site/.git vuepress -recurse
-            # CD vuepress
-            # git add -A 2>&1
-            # git commit -m "CI Updates" -q
-            # git push origin gh-pages -q
-            # exit 0
+            git clone https://github.com/newlifex/newlifex.github.io.git -b master origin_site -q
+            rm origin_site/* -recurse
+            Copy-Item origin_site/.git vuepress -recurse
+            CD vuepress
+            git add -A 2>&1
+            git commit -m "CI Updates" -q
+            git push origin gh-pages -q
+            exit 0
             #-----------这里就是部署的地方，克隆你项目的pages分支，复制生成的html然后提交----------------end
         }
