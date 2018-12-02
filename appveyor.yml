@@ -43,7 +43,7 @@ build_script: # 构建生成
       npm run build
       # vuepress build articles
       write-host '结束构建 '
-  test_script:
+test_script:
   - ps: >-
       node -v
       vuepress -V
