@@ -1,6 +1,6 @@
 # 模型文件
 
-模型文件配合tt文件完成代码生成部分功能，一个Table元素生成一个实体类，对应一个表。模型文件可从现有数据库生成，也可手动编写。
+模型文件配合[tt文件](./tt-file.html)完成代码生成部分功能，一个Table元素生成一个实体类，对应一个表。模型文件可从现有数据库生成，也可手动编写。
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -28,7 +28,7 @@
 
 ## 新数据库
 
-- 以上是个简单的例子，复制到模型文件，然后调用[XCode.Code.EntityBuilder.Build](https://github.com/NewLifeX/X/blob/master/XCode/Code/EntityBuilder.cs#L48)方法，根据该模型文件生成实体类。也可使用tt文件生成，本质上都是调用该方法生成实体类。
+- 以上是个简单的例子，复制到模型文件，然后调用[XCode.Code.EntityBuilder.Build](https://github.com/NewLifeX/X/blob/master/XCode/Code/EntityBuilder.cs#L48)方法，根据该模型文件生成实体类。也可使用[tt文件](./tt-file.html)生成，本质上都是调用该方法生成实体类。
 - 生成实体类之后包含在项目中即可使用
 
 ```csharp
