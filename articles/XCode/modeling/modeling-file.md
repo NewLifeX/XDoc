@@ -54,3 +54,30 @@
 ```
 
 新建控制台项目，运行以上代码，即可自动创建sqlite数据库，并插入一条数据。
+
+## 使用现有数据库
+
+使用[码神工具](https://github.com/NewLifeX/XCoder)连接数据库并生成实体类
+
+![ ](/images/xcode/modeling/modeling-file/2.png)
+
+## 索引
+
+`Indexes`元素代表的是索引，XCode会自动生成对应索引以及相应拓展方法。
+
+## 结构
+
+- 生成的实体类文件分两部分，一部分是基本数据，值得注意的是`BindTable`特性
+
+```csharp
+    [BindTable("Student", Description = "学生", ConnName = "Membership", DbType = DatabaseType.None)]
+    public partial class Student : IStudent
+    {}
+```
+
+- 其中ConnName对应的是数据库字符串连接名，实体类的所有数据库操作，将发生在该连接名指定的数据库连接上。DbType对应的是数据库类型，仅用于记录实体类由何种类型数据库生成，当且仅当目标数据库同为该数据库类型时，采用实体属性信息上的RawType作为反向工程的目标字段类型，以期获得开发和生产的最佳兼容。
+- 另一部分是带有`Biz`的实体类，用来写业务，每次生成新的实体类，该文件不会被覆盖，仅在第一次生成。
+
+## 分组
+
+如果模型文件过多，全部放一起太乱，可以新建文件夹，复制一份tt文件和XML模型文件到新的文件夹即可
