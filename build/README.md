@@ -11,6 +11,7 @@
 ### 注意事项
 
 - 每个文件夹下需要有个`README.md`文件，会生成`index.html`，没有的话导航到该目录就无内容
+- 之前的readme文件有大写开头、全小写、全大写的，后面统一改成大写后需要设置`git config core.ignorecase false`大小写敏感，否则修改了旧的readme可能提交不了
 
 ## 生成api文档
 
