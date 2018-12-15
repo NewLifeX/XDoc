@@ -29,7 +29,7 @@ target/
 *.log
 *.tmp
 *.vsprops
-*.suo 
+*.suo
 *.user
 *.userprefs
 *.sdf
@@ -49,3 +49,4 @@ vuepress
 yarn.lock
 temp.ps1
 *-temp*
+articles/.vuepress/sidebar.json

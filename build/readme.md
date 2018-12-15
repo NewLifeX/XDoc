@@ -8,13 +8,21 @@
 - `vuepress dev`运行项目
 - `vuepress build`发布项目
 
-## build-toc.ps1
+### 注意事项
 
-### build-toc.ps1说明
+- 每个文件夹下需要有个`README.md`文件，会生成`index.html`，没有的话导航到该目录就无内容
+
+## 生成api文档
+
+- 暂时没用到
+
+### build-toc.ps1
+
+#### build-toc.ps1说明
 
 - 根据文件夹结构生成一个栏目下的目录
 
-### 用法
+#### 用法
 
 - 在一栏目下新建`ps1`脚本文件，填写一下内容保存
 
@@ -26,9 +34,9 @@
 - 运行之后该目录会生成一个`toc-temp.md`目录文件，如果不存在`toc.md`，则自动创建一个
 - 第二次运行只会生成新的`toc-temp.md`，不会覆盖`toc.md`，这样当`toc.md`内容调整时，可以从`toc-temp.md`复制新的目录内容到`toc.md`进行手工调整
 
-## build.ps1
+### build.ps1
 
-### build.ps1说明
+#### build.ps1说明
 
 - 根据配置文件的`build`-`content`配置，找到并生成所有栏目
 - 覆盖原则同上
