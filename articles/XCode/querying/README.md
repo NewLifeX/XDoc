@@ -109,10 +109,13 @@ exp &= SearchWhereByKeys(key); 生成所有字段的模糊查询
 
 - “不支持”多表查询！为何不支持要加双引号？那是因为XCode实际上支持多表查询，只是用起来非常复杂，也不容易讲清楚，会严重影响基本功能的学习理解。
 - 不支持多表查询，所以不是万能的，仅仅支持单表，所以是简单的，增删改查都得到了直接支持，完全能解决80%-90%以上的场景，所以是实用的。
-- 另外10%-20%，还有什么语法比sql更简洁?
-- 通过以下语句获取DataSet
+- 如果是为了查询从表填充拓展属性，那么从表的查询启用缓存查询，多表查询变为多次查找缓存。
+- 至于另外10%-20%，还有什么语法比sql更简洁?
+- 通过以下语句获取DataSet，由于`net standard`的一些驱动不支持`CreateDataAdapter`方法，用的是`DbDataReader`并填充到[DbTable](https://github.com/NewLifeX/X/blob/master/NewLife.Core/Data/DbTable.cs)
 
 ```csharp
-DAL dal=DAL.Create("Common");
-DataSet ds=dal.Select("select * from table1");
+DAL dal = DAL.Create("Common");
+DataSet ds = dal.Select("select * from table1");
+// 或者
+DbTable dt = dal.Query("select * from table1");
 ```

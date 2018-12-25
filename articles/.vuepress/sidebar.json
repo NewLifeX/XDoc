@@ -73,10 +73,8 @@
         "title": "XCode",
         "children": [
             "",
-            "ExtendProperty.md",
             "Get-Start.md",
             "Migration.md",
-            "Search.md",
             "从零开始的最佳实践.md",
             "入门.md"
         ]
