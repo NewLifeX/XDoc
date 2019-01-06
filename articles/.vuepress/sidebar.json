@@ -36,6 +36,13 @@
             "新生命网络库比较典型的简单用法.md"
         ]
     }],
+    "/team/": [{
+        "title": "team",
+        "children": [
+            "",
+            "brief-history-of-team.md"
+        ]
+    }],
     "/training/": [{
         "title": "training",
         "children": [

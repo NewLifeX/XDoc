@@ -1,0 +1,218 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro"), url("/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf");
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Light"), url("/fonts/Source_Sans_Pro/SourceSansPro-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Source Sans Pro";
+  src: local("Source Sans Pro Semibold"), url("/fonts/Source_Sans_Pro/SourceSansPro-Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Roboto Mono";
+  src: local("Roboto Mono"), url("/fonts/Roboto_Mono/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Dosis";
+  src: local("Dosis Medium"), url("/fonts/Dosis/Dosis-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fa-github:before {
+    content: "\f09b"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-link:before {
+    content: "\f0c1"
+}
+
+.fa-globe:before {
+    content: "\f0ac"
+}
+
+.fa-map-marker:before {
+    content: "\f041"
+}
+
+.fa-briefcase:before {
+    content: "\f0b1"
+}
+
+#team-members .sort-by-distance-button {
+  display: inline-block;
+  padding: 0.4em 0.7em 0.45em;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  line-height: 1;
+  border: none;
+  background: #34495e;
+  color: #fff;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  float: right;
+  margin-top: 0.3em;
+}
+#team-members .sort-by-distance-button i {
+  margin-right: 0.25em;
+}
+#team-members .sort-by-distance-button i:last-child {
+  margin-right: 0;
+}
+#team-members .sort-by-distance-button[disabled] {
+  opacity: 0.7;
+  cursor: default;
+}
+#team-members .vuer {
+  display: flex;
+  padding: 25px 0;
+  border-bottom: 1px dotted #ddd;
+}
+#team-members .vuer:first-of-type {
+  margin-top: 15px;
+}
+#team-members .vuer:last-of-type {
+  border-bottom: none;
+}
+#team-members .vuer .avatar {
+  flex: 0 0 80px;
+}
+#team-members .vuer .avatar img {
+  border-radius: 50%;
+}
+#team-members .vuer .profile {
+  padding-left: 26px;
+  flex: 1;
+}
+#team-members .vuer .profile h3 {
+  margin: 0;
+  font-size: 1.3em;
+}
+#team-members .vuer .profile h3::before,
+#team-members .vuer .profile h3::after {
+  display: none;
+}
+#team-members .vuer .profile h3 > sup {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  letter-spacing: 0.3px;
+  padding: 2px 5px;
+  margin-left: 10px;
+  color: rgba(0,0,0,0.6);
+  background: #f9f7f5;
+  border-radius: 5px;
+}
+#team-members .vuer .profile .user-match {
+  cursor: help;
+  color: #4682b4;
+}
+#team-members .vuer .profile .user-match:after {
+  content: "\f06a";
+  font-family: FontAwesome;
+  font-size: 0.75em;
+  vertical-align: super;
+  margin-left: 4px;
+  margin-right: 2px;
+  position: relative;
+}
+#team-members .vuer .profile dl {
+  margin: 0.6em 0 0;
+}
+#team-members .vuer .profile dt,
+#team-members .vuer .profile dd,
+#team-members .vuer .profile ul,
+#team-members .vuer .profile li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+}
+#team-members .vuer .profile dt {
+  text-transform: uppercase;
+  font-size: 0.84em;
+  font-weight: 600;
+}
+#team-members .vuer .profile dt::after {
+  content: "";
+  margin-right: 7px;
+}
+#team-members .vuer .profile dt i {
+  width: 14px;
+  text-align: center;
+}
+#team-members .vuer .profile dt i.fa-map-marker {
+  font-size: 1.15em;
+}
+#team-members .vuer .profile dt i.fa-globe {
+  font-size: 1.2em;
+}
+#team-members .vuer .profile dt i.fa-link {
+  font-size: 1.05em;
+}
+#team-members .vuer .profile dd {
+  font-weight: 600;
+}
+#team-members .vuer .profile dd::after {
+  display: block;
+  content: " ";
+  margin-top: 0.6em;
+}
+#team-members .vuer .profile li {
+  display: inline-block;
+}
+#team-members .vuer .profile li::after {
+  display: inline-block;
+  content: "·";
+  margin: 0 8px;
+}
+#team-members .vuer .profile li:last-child::after {
+  content: "";
+}
+#team-members .vuer .profile .social a {
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+#team-members .vuer .profile .social a.github,
+#team-members .vuer .profile .social a.codepen {
+  color: #000;
+}
+#team-members .vuer .profile .social a.twitter {
+  color: #1da1f3;
+}
+#team-members .vuer .profile .social i {
+  vertical-align: text-bottom;
+  font-size: 1.3em;
+}
+@media (max-width: 640px) {
+  #team-members .vuer .profile h3 sup {
+    display: inline-block;
+    margin-left: 0;
+  }
+}

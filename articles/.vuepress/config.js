@@ -59,24 +59,24 @@ module.exports = {
         editLinkText: '帮助我们改善此页面！',
         lastUpdated: '上次更新',
         next: true,
-        nav: [
-            {
+        nav: [{
                 text: 'XCode',
-                items:[
-                    {
-                        text: 'XCode',
-                        link: '/XCode/'
-                    },{
-                        text: '基础知识',
-                        link: '/XCode/fundamentals/'
-                    },{
-                        text: '模型',
-                        link: '/XCode/modeling/'
-                    },{
-                        text: '查询',
-                        link: '/XCode/querying/'
-                    }
-                ]
+                items: [{
+                    text: 'XCode',
+                    link: '/XCode/'
+                }, {
+                    text: '基础知识',
+                    link: '/XCode/fundamentals/'
+                }, {
+                    text: '模型',
+                    link: '/XCode/modeling/'
+                }, {
+                    text: '查询',
+                    link: '/XCode/querying/'
+                }]
+            }, {
+                text: '团队',
+                link: '/team/'
             },
             {
                 text: 'DotNetCore',
@@ -91,17 +91,27 @@ module.exports = {
                     text: 'Core版',
                     link: '/CubeCore/'
                 }]
-            },{
-                text:'网络库',
-                link:'/Net/'
-            },{
-                text:'Redis',
-                link:'/Redis/'
-            },{
-                text:'培训',
-                link:'/training/'
+            }, {
+                text: '网络库',
+                link: '/Net/'
+            }, {
+                text: 'Redis',
+                link: '/Redis/'
+            }, {
+                text: '培训',
+                link: '/training/'
             }
         ],
         sidebar: sidebar
+    },
+    // 这个配置没有用
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@': 'public',
+                '@images': '/images',
+                '@data': '/data'
+            }
+        }
     }
 }
