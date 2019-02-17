@@ -6,7 +6,7 @@ actionLink: /XCode/Get-Start.html
 footer: © 2002-2018 新生命开发团队 QQ群1600800、嵌入式群1600838
 ---
 
-[![Build status](https://ci.appveyor.com/api/projects/status/wnomb8m249sbf5by/branch/master?svg=true)](https://ci.appveyor.com/project/xxred/xdoc-r67nv/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/wnomb8m249sbf5by/branch/master?svg=true)](https://ci.appveyor.com/project/xxred/xdoc/branch/master)
 
 新生命团队基础框架X组件，包括`日志、数据库、网络、RPC、序列化、缓存、Windows服务、多线程`等模块，支持`.Net Framework/.netstandard/Mono`。
 
