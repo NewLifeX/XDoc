@@ -18,6 +18,7 @@
         "title": "CubeCore",
         "children": [
             "",
+            "route.md",
             "魔方core.md"
         ]
     }],
@@ -81,7 +82,6 @@
         "children": [
             "",
             "Get-Start.md",
-            "Migration.md",
             "从零开始的最佳实践.md",
             "入门.md"
         ]
