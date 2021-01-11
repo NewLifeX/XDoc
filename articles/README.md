@@ -90,6 +90,6 @@ QQ群：1600800
         <span> | Theme - </span><a href="https://www.vuepress.cn/" target="_blank">default-theme</a>
     </div>
     <div>
-        <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备16014330号</a>
+        <a href="https://beian.miit.gov.cn" target="_blank">粤ICP备16014330号-1</a>
     </div>
 </div>
